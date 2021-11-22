@@ -39,6 +39,8 @@ dependencies:
   http: ^0.13.4
   json_serializable: ^6.0.1
   google_maps_webservice: ^0.0.19
+  json_annotation: ^4.3.0
+  location: ^4.3.0
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +69,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/locations.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
